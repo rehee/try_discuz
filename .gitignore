@@ -130,7 +130,7 @@ tags
 *.iml
 .directory
 
-*.cfg
+
 *.rdb
 *.db
 *.sqlite
