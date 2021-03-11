@@ -236,6 +236,7 @@ class RegistrationService(UserRegistrationService):
                 language=user_info.language,
                 primary_group_id=user_info.group,
                 date_joined=datetime.now(UTC),
+                activated=True
             )
             self.db.session.add(user)
             self.db.session.commit()
